@@ -14,25 +14,84 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainBLock {
+  background-color: #cacaca;
+  padding: 20px 50px 50px 50px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.table {
+  display: flex;
+}
+
+.timersBlock {
+  min-height: 60px;
+  max-height: 60px;
+  padding-right: 10px;
+  color: #dd5f0b;
+}
+
+.namesBlock {
+  padding-right: 15px;
+  min-height: 60px;
+  max-height: 60px;
+  color: #0000ff;
+  border-bottom: 2px solid #282c34;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+
+.prices .main {
+  color: #0000ff;
+}
+
+.prices .discount {
+  color: rgb(117, 41, 41);
+}
+
+.prices .sell {
+  color: rgb(50, 136, 42);
+}
+
+.grayBlock {
+  padding-top: 5px;
+  min-height: 40px;
+  max-height: 40px;
+  margin: auto;
+}
+
+.whiteBlock {
+  padding-top: 5px;
+  min-height: 40px;
+  max-height: 40px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.timer {
+  border: 2px solid #dd5f0b;
+  padding: 5px;
+}
+
+.nameauction {
+  margin-bottom: 25px;
+  font-size: 24px;
 }
